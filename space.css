@@ -1,0 +1,409 @@
+html{
+    font-size: 17px;
+}
+header{
+    background-color: rgb(13, 13, 87);
+    height: 50rem;
+}
+
+.main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+    text-align: center;
+}
+.title-img img{
+    margin: 10px;
+    width: 12rem;
+}
+.title{
+    font-size: 20px;
+    color: white;
+    margin: 30px 10px 30px 10px;
+}
+.btn{
+    margin: 10px;
+    transition: 300ms;
+}
+.btn:hover{
+    transform: translateY(-2px);
+    transition: 300ms;
+    
+}
+.logo img{
+    width: 20px;
+    margin: 50px 10px 20px 10px;
+}
+.logo div{
+    margin: 10px 10px 40px 10px;
+    font-weight: 500;
+    color: rgb(176, 176, 176);
+}
+section{
+    
+    display: flex;
+    justify-content: center;
+}
+.detail-img img{
+    width: 85%;
+  
+}
+.detail-img{
+    margin-top: -14rem;
+    text-align: center;
+}
+.hand-crafted{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    width: 50%;
+    text-align: center;
+}
+.heading-1{
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 50px;
+
+}
+.head-title{
+    font-size: 20px;
+    margin: 10px 10px 50px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-img img{
+    width: 80%;
+    margin: 30px;
+    box-shadow: 0px 0px 50px rgb(195, 217, 248);
+    border-radius: 10px;
+    transition: 300ms;
+}
+.grid-img img:hover{
+    transform: scale(1.1);
+    transition: 300ms;
+}
+.font h1{
+    margin-left: 1.3rem;
+    margin-top: 2rem;
+}
+.font{
+    margin: 3rem;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+.item-icon{
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.icon span{
+    padding: 1rem;
+    font-size: 40px;
+    box-shadow: 0px 0px 70px rgb(198, 211, 217);
+    border-radius: 50%;
+    color: brown;
+
+}
+.item-icon h2{
+    margin-top: 3rem;
+    text-shadow: 0px 0px 2px gray;
+}
+.item-icon p{
+    margin-bottom: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+.mapbox{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7rem;
+    background-color: rgb(241, 244, 247);
+}
+.mapbox img{
+    width: 100%;
+    
+}
+.mapbox-details{
+    margin: 3rem 0rem 0rem 4rem;
+}
+.mapbox-title{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+    color: gray;
+}
+.mapbox-subtitle{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-bottom: 1rem;
+     color: gray;
+     font-size: 18px;
+}
+.awesome{
+    background-color: rgb(9, 1, 55);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.awesome-details{
+    width: 50%;
+}
+.feature-sub{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.feature-sub>div{
+    width: 15rem;
+    background-color: white;
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 10px;
+
+}
+.part{
+    background-color: rgb(9, 1, 55);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10rem;
+    
+}
+.feature-sub span{
+    font-size: 40px;
+    color: brown;
+}
+.feature-heading{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inside-detail{
+    padding: 5rem;
+    width: 70%;
+}
+.inside-detail p{
+    font-size: 20px;
+    color: gray;
+}
+.less-work{
+    display: flex;
+    justify-content: center;
+    background-color:  rgb(13, 13, 87);
+    color: white;
+    text-align: center;
+    padding: 5rem;
+}
+.less-work-detail{
+    width: 70%;
+}
+.less-work-detail >p{
+    color: rgb(193, 193, 193);
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.detail-box{
+    text-align:initial;
+    background-color: white;
+    color: rgb(255, 72, 72);
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+    padding:2rem 2rem 1rem 2rem;
+    margin-top: 4rem;
+}
+.box-head{
+    color: black;
+}
+.detail-box>div{
+    margin-bottom: 1rem;
+}
+.less-title{
+    word-spacing: 4px;
+    font-size: 20px;
+    margin: 2rem 1rem 1rem 1rem ;
+}
+.less-title b{
+    text-decoration: underline;
+}
+.plan{
+    background-color: rgb(241, 244, 247);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 8rem;
+}
+.plan-details{
+    width: 80%;
+}
+.plan-details p{
+    font-size: 20px;
+    margin-top: 2rem;
+    color: gray;
+}
+.plan-price{
+    background-color: rgb(241, 244, 247);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    padding: 3rem 0rem 8rem 0rem;
+}
+.plan-1{
+    width:20rem;
+    background-color: white;
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    border-radius: 10px;
+}
+.plan-1 span{
+    font-weight: bold;
+    font-size: 30px;
+    color:green;
+}
+.plan-1 .bi-x{
+    color:rgb(128, 0, 0);
+}
+.plan-price p{
+    margin:2rem 0rem 1rem 0rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.plan-1 .btn-info{
+    background-color: rgb(9, 9, 80);
+    color: white;
+    border: 1px solid  rgb(9, 9, 80);
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+footer{
+    background-color: rgb(9, 9, 80);
+    color: white;
+   
+}
+.img-title img{
+    width: 40%;
+}
+.img-title div{
+    color: rgb(204, 204, 204);
+    margin-top: 1rem;
+}
+.footer {
+    padding: 7rem 3rem 7rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer-about{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.copyright {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.copyright img{
+    width: 20px;
+    margin-bottom: 10px;
+}
+.copyright {
+    font-size: 16px;
+    font-family: cursive;
+}
+.footer-subtitle >div{
+    color: rgb(204, 204, 204);
+    margin-top: 1rem;
+}
+.divice-para{
+    color: rgb(149, 149, 149);
+}
+
+
+@media screen and (max-width:500px){
+    .footer {
+        padding: 4rem 1rem 5rem 1rem;
+        gap: 3rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .heading{
+        width: 100%;
+        margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+    .grid-img img{
+        width: 90%;
+        margin: 10px;
+        box-shadow: 0px 0px 50px rgb(195, 217, 248);
+        border-radius: 10px;
+    }
+    .grid-img{
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+    }
+    .font{
+        
+        margin:initial;
+        padding: 0.5rem;
+    }
+    .item-icon{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: initial;
+    }
+    .item-icon-1{
+        margin: 3rem 2rem -2rem 2rem;
+    }
+    .mapbox{
+        display:flex;
+        flex-direction: column-reverse;
+        padding:1rem;
+        background-color: rgb(241, 244, 247)
+    }
+    .mapbox-details{
+        margin:initial;
+        padding-bottom: 2rem;
+    }
+    .awesome-details{
+        width: 100%;
+    }
+    .feature-sub>div{
+        width: 19rem;
+        margin: 0.5rem;
+        background-color: white;
+        padding: 2rem 1rem 2rem 1rem;
+        border-radius: 10px;
+    
+    }
+    .inside-detail{
+        padding:3rem 1rem 3rem 1rem;
+        width: 100%;
+    }
+    .less-work{
+        padding:3rem 0.5rem 8rem 0.5rem;
+    }
+    .less-work-detail{
+        width: 100%;
+    }
+    .plan-1{
+        width:19rem;
+    }
+    .plan{
+        padding: 3rem 0rem 2rem  0rem;
+    }
+}
